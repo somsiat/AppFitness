@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppFitness</string>
+    <string-array name="ingredient_array">
+        <item>Pierś z kurczaka</item>
+        <item>Chleb</item>
+        <item>Ser</item>
+        <item>Jabłko</item>
+        <item>Banany</item>
+        <item>Pomidor</item>
+        <item>Ogórek</item>
+        <!-- Dodaj więcej składników tutaj -->
+    </string-array>
+</resources>

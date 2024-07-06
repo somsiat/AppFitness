@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ingredientsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Dynamicznie dodawane pola będą tutaj -->
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addIngredientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj składnik" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oblicz kalorie" />
+
+    <Button
+        android:id="@+id/clearIngredientsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuń składniki" />
+
+    <TextView
+        android:id="@+id/caloriesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Całkowita ilość kalorii: "
+        android:paddingTop="16dp" />
+</LinearLayout>
